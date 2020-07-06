@@ -7,6 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use App\Models\Setting;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\App;
 
 class SettingServiceProvider extends ServiceProvider
 {
