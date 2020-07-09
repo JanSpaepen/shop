@@ -70,4 +70,8 @@ class Product extends Model
     {
         return $this->belongsToMany(Category::class, 'product_categories', 'product_id', 'category_id');
     }
+    /**
+     * @param $value
+     */
+
 }
