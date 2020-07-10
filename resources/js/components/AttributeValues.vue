@@ -63,9 +63,9 @@
                             <td style="width: 25%" class="text-center">{{ value.price}}</td>
                             <td style="width: 25%" class="text-center">
                                 <button class="btn btn-sm btn-primary" @click.stop="editAttributeValue(value)">
-                                    <i class="fa fa-edit"></i>
+                                    <i class="fa fa-edit" ></i>
                                 </button>
-                                <button class="btn btn-sm btn-danger">
+                                <button class="btn btn-sm btn-danger" @click.stop="deleteAttributeValue(value)">
                                     <i class="fa fa-trash"></i>
                                 </button>
                             </td>
